@@ -1,0 +1,4 @@
+<!--miniprogram/pages/demoDetails/demoDetails.wxml-->
+<view class='container'>
+{{txt.data}}
+</view>

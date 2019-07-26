@@ -1,0 +1,6 @@
+<!--pages/demo/components/demo-components.wxml-->
+<view class='container'>
+<text>{{message}}</text>
+<view style='color:red' wx:if="{{isShow}}">{{title}}</view>
+<button bindtap="emitfater">子主键点击</button>
+</view>

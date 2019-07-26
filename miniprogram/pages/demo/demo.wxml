@@ -1,0 +1,10 @@
+<view class='container'>
+   <h3>我的程序！{{text}}</h3>
+   <demoComponent title='哈哈哈' id='democom'        bind:clicktxt='clicktxt'></demoComponent>
+  <icon class="iconfont icon-wenhao"></icon>
+  <icon class="iconfont icon-wenhao"></icon>
+  <input placeholder="这是一个可以自动聚焦的input" auto-focus/>
+   <view wx:for-items='{{listdata}}' wx:key='index'>{{item}}</view>
+   <button size='mini' type='primary' bindtap="clickbtn">点击效果</button>
+   <button size='mini' type='primary' bindtap="clickbtn2">点击效果2</button>
+</view>
