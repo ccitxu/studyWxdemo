@@ -1,0 +1,8 @@
+var filter={
+  price:function(e){
+     return e+"元"
+  }
+}
+module.exports={
+  getPrice:filter.price
+}
